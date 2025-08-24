@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Puppies - Pick Your Pup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-text">Pick Your Pup</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="puppies.html" class="nav-link active">Puppies</a></li>
+                <li><a href="food.html" class="nav-link">Food</a></li>
+                <li><a href="accessories.html" class="nav-link">Accessories</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Available Puppies</h1>
+            <p>Find your perfect companion from our carefully selected and health-certified puppies</p>
+        </div>
+    </section>
+
+    <!-- Pickup Notice -->
+    <section class="pickup-notice">
+        <div class="container">
+            <div class="notice-card">
+                <div class="notice-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="notice-content">
+                    <h3>Pickup Only</h3>
+                    <p>All puppies require in-person pickup at our store for proper handover and documentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters">
+                <div class="filter-item">
+                    <i class="fas fa-filter"></i>
+                    <span>Filter by:</span>
+                </div>
+                <select class="filter-select">
+                    <option value="">All Breeds</option>
+                    <option value="labrador">Labrador Retriever</option>
+                    <option value="german-shepherd">German Shepherd</option>
+                    <option value="french-bulldog">French Bulldog</option>
+                    <option value="beagle">Beagle</option>
+                    <option value="husky">Husky</option>
+                    <option value="poodle">Poodle</option>
+                    <option value="boxer">Boxer</option>
+                    <option value="corgi">Corgi</option>
+                </select>
+                <select class="filter-select">
+                    <option value="">All Ages</option>
+                    <option value="6-8">6-8 weeks</option>
+                    <option value="8-12">8-12 weeks</option>
+                    <option value="12-16">12-16 weeks</option>
+                    <option value="16+">16+ weeks</option>
+                </select>
+                <select class="filter-select">
+                    <option value="">All</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Puppies Grid -->
+    <section class="puppies-listing">
+        <div class="container">
+            <div class="puppies-grid">
+                <!-- Row 1 -->
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <span class="puppy-badge blue">Reserved</span>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">5.0</span>
+                        </div>
+                        <h3>Luna</h3>
+                        <p class="breed">Labrador Retriever</p>
+                        <p class="age">6 weeks old</p>
+                        <p class="description">Sweet and gentle Luna loves playing fetch and enjoys attention.</p>
+                        <div class="price-action">
+                            <span class="price">$2,500</span>
+                            <button class="btn-view reserved">Reserved</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">4.9</span>
+                        </div>
+                        <h3>Max</h3>
+                        <p class="breed">German Shepherd</p>
+                        <p class="age">8 weeks old</p>
+                        <p class="description">Intelligent and loyal Max is perfect for active families.</p>
+                        <div class="price-action">
+                            <span class="price">$3,200</span>
+                            <button class="btn-view">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <span class="puppy-badge featured">Featured</span>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">5.0</span>
+                        </div>
+                        <h3>Bella</h3>
+                        <p class="breed">French Bulldog</p>
+                        <p class="age">12 weeks old</p>
+                        <p class="description">Adorable Bella has a playful personality and loves attention.</p>
+                        <div class="price-action">
+                            <span class="price">$4,500</span>
+                            <button class="btn-view">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">4.8</span>
+                        </div>
+                        <h3>Charlie</h3>
+                        <p class="breed">Beagle</p>
+                        <p class="age">9 weeks old</p>
+                        <p class="description">Curious Charlie loves exploring and making new friends.</p>
+                        <div class="price-action">
+                            <span class="price">$2,200</span>
+                            <button class="btn-view">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <span class="puppy-badge blue">Reserved</span>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">4.9</span>
+                        </div>
+                        <h3>Zeus</h3>
+                        <p class="breed">Husky</p>
+                        <p class="age">11 weeks old</p>
+                        <p class="description">Energetic Zeus loves outdoor adventures and cold weather.</p>
+                        <div class="price-action">
+                            <span class="price">$3,800</span>
+                            <button class="btn-view reserved">Reserved</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">5.0</span>
+                        </div>
+                        <h3>Daisy</h3>
+                        <p class="breed">Poodle</p>
+                        <p class="age">7 weeks old</p>
+                        <p class="description">Sweet and hypoallergenic Daisy is perfect for any family.</p>
+                        <div class="price-action">
+                            <span class="price">$2,800</span>
+                            <button class="btn-view">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">4.7</span>
+                        </div>
+                        <h3>Rocky</h3>
+                        <p class="breed">Boxer</p>
+                        <p class="age">14 weeks old</p>
+                        <p class="description">Playful Rocky is full of energy and loves to play games.</p>
+                        <div class="price-action">
+                            <span class="price">$2,900</span>
+                            <button class="btn-view">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="puppy-card">
+                    <div class="puppy-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                    </div>
+                    <div class="puppy-info">
+                        <div class="puppy-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-number">4.8</span>
+                        </div>
+                        <h3>Milo</h3>
+                        <p class="breed">Corgi</p>
+                        <p class="age">10 weeks old</p>
+                        <p class="description">Adorable Milo has short legs and a big personality.</p>
+                        <div class="price-action">
+                            <span class="price">$3,500</span>
+                            <button class="btn-view">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Notice -->
+    <section class="important-notice">
+        <div class="container">
+            <div class="notice-card">
+                <div class="notice-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="notice-content">
+                    <h3>Important: Only one puppy can be selected for purchase at a time.</h3>
+                    <p>Each puppy requires individual attention and care during the adoption process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <span class="brand-text">Pick Your Pup</span>
+                        <p>Your trusted companion in finding the perfect furry family member. We provide premium puppies, quality food, and essential accessories with love and care.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="puppies.html">Puppies</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#order-history">Order History</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pick Your Pup. All Rights Reserved.</p>
+                <p>Licensed per retailer | Health certified puppies | Lifetime support</p>
+                <p style="margin-top: 20px; font-size: 12px;">Developed and Designed by <a href="#" style="color: #ff6b35;">Mezat</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="api-service.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
