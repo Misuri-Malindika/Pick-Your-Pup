@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🐕 Pick Your Pup - Full-Stack E-commerce Website
 
 **A complete luxury e-commerce platform for pet adoption, food, and accessories with real database backend**
@@ -213,3 +214,6 @@ For support, email support@pickyourpup.com or create an issue in this repository
 ---
 
 **🎉 Ready to run! Your complete e-commerce platform with real database backend is ready for deployment!**
+=======
+# Pick-Your-Pup
+>>>>>>> bfc6e4495cfdb0596a9d0a91c9ece508f847f730
