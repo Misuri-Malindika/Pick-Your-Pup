@@ -96,11 +96,7 @@ Pick-Your-Pup/
 ├── 🗄️ Database
 │   └── pick_your_pup.db        # SQLite database
 ├── 📋 Scripts
-│   ├── install-and-run.bat     # One-click setup
-│   └── push-to-github.bat      # GitHub deployment
-└── 📚 Documentation
-    ├── README.md               # This file
-    ├── DATABASE_SETUP.md       # Database documentation
-    └── START_FULLSTACK.md      # Quick start guide
+    ├── install-and-run.bat     # One-click setup
+    └── push-to-github.bat      # GitHub deployment
+
 ```
-# Pick-Your-Pup
